@@ -1,0 +1,27 @@
+# Files that always must be version controlled
+#    all source files
+#    the project file (*.ewp)
+
+# Files that should be version controlled, if they are used in your project
+#    customized linker configuration files (*.icf for ILINK *.xcl for XLINK)
+#    customized board description files (*.board)
+#    files used by the Custom Build and/or Build Actions options
+
+# Files that might be version controlled, depending on your way of working
+#    the *.ewt file if you use C-STAT or C-RUN
+#    the debugger settings file (*.ewd)
+#    the workspace file (*.eww)
+
+# Files not designed for version control
+#    files in the \settings\ directory are created automatically and updated frequently
+settings/
+Debug/
+*.hPreview
+*.o
+*.hex
+*.dep
+*.pbi
+*.xcl
+*.out
+RM-2L v3.xx/Obj/.ninja_log
+*.browse
